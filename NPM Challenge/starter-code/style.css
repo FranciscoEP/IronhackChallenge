@@ -1,0 +1,219 @@
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 100px;
+}
+
+.navbar a{
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+  font-size: 1em;
+}
+
+.nav-div{
+float:left;
+}
+
+.nav-div a{
+  padding-right: 20px;
+}
+.nav-ul{
+  float:right;
+  margin:0 auto;
+}
+
+.nav-ul li{
+  list-style-type:none;
+  text-align:center;
+  display: inline;
+  padding-left: 15px;
+}
+
+.headerBar{
+  padding: 15px;
+}
+.headerBarNpm{
+  float: left;
+  width:10%;
+}
+.headerSearchBar{
+  float: left;
+  width: 80%;
+  border: 1px solid rgba(255,255,255,0.2);
+  background-color: rgb(31, 82, 111);
+  letter-spacing: 0.5px;
+}
+.bSearch {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  float:left; }
+
+.ulHeaderBar{
+  float:left;
+  margin:0 auto;
+  width:13%;
+  padding: 10px 0;
+  text-align: right;
+}
+.ulHeaderBar li{
+  list-style-type:none;
+  text-align:center;
+  display: inline;
+}
+.ulHeaderBar a, span{
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+  font-size: 1em;
+}
+.osoLogo{
+  float: left;
+  height: 40px;
+}
+.npmLogo{
+  height: 50px;
+}
+.headerSign{
+  text-align: left;
+  margin: 40px 150px;
+}
+.divHeaderSign{
+  width: 500px;
+}
+.divHeaderSign p{
+  font-size: 20px;
+  padding: 20px 0;
+  margin: 10px 0;
+}
+.divHeaderSign a{
+  background-color: rgb(240, 146, 51);
+  text-decoration: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: 300;
+}
+.bHeader{
+  background-color: rgb(240, 146, 51);
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  font-size: 15px;
+  text-align: left;
+}
+.container{
+  width:1160px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sSignUp{
+  background-color:#273547;
+  font:white;
+  padding: 120px 10px;
+  color:white;
+}
+.imgSignUp{
+  width: 50%;
+  margin-left: 4%;
+  float: left;
+  display: block;
+  box-sizing: border-box;
+}
+.HumanosLogo{
+  height: 333px;
+  text-align: right;
+}
+.textSignUp{
+  width: 40%;
+  margin-left: 4%;
+  float: left;
+  position: relative;
+  display: block;
+}
+.textSignUp h1{
+  font-weight: 300;
+  padding: .107em 0;
+  text-align: left;
+  line-height: normal;
+}
+.textSignUp ul{
+  padding-left: 23px;
+  padding-bottom: 20px;
+  text-align: left;
+
+}
+.bSign{
+  background-color: rgb(203, 56, 55);
+  text-decoration: none;
+  color: white;
+  padding: 7px 26px;
+  border: 1px;
+  border-radius: 20px;
+  text-align: left;
+}
+.pSign{
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+}
+.pSign a{
+  text-decoration: none;
+  color: white;
+}
+.osoEnTugger{
+  background-color: #206F9C;
+  background-position: 0 0;
+  height: 380px;
+  color:white;
+  padding: 60px 6%;
+}
+.divEnTugger{
+  text-align: left;
+  margin: 60px 0 20px 5%;
+  width: 345px;
+}
+.divEnTugger p{
+  margin-bottom: 10px;
+  padding: 10px 0;
+
+}
+.divEnTugger a{
+  text-decoration: none;
+  background-color: #34495e;
+  border-radius: 20px;
+  font-weight: 400;
+  border: 1px;
+  color: white;
+}
+
+.sectionOptions{
+  height: 510px;
+  color:#6d7986;
+  text-align: center;
+}
+.divOptions{
+  padding: 40px 10px;
+  margin:0 5%;
+}
+.divOptions h2{
+  color: #373d48;
+}
+
+.optionsBlocks div{
+  width: 250px;
+  padding: 20px;
+}
+.optionsBlocks h3{
+  color:#373d48;
+  font-weight: 600;
+}
+.optionsBlocks a{
+  text-decoration: none;
+  color: #cb3837;
+}
+
+.block {
+  float: left;
+}
