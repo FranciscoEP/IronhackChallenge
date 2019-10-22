@@ -11,23 +11,23 @@ function turnLeft(rover){
     switch(mRover.idirection){
       case "N":
         mRover.idirection = "O";
-        console.log(mRover.x);
-        console.log(mRover.y);
+        console.log(mRover.direction);
+
         break;
       case "E":
         mRover.idirection = "N";
-        console.log(mRover.x);
-        console.log(mRover.y);
+        console.log(mRover.direction);
+
         break;
        case "S":
         mRover.idirection = "E";
-        console.log(mRover.x);
-        console.log(mRover.y);
+        console.log(mRover.direction);
+
         break;
        case "O":
         mRover.idirection = "S";
-        console.log(mRover.x);
-        console.log(mRover.y);
+        console.log(mRover.direction);
+
         break;
     }
   }
@@ -38,23 +38,23 @@ function turnRight(rover){
   switch(mRover.idirection){
       case "N":
         mRover.idirection = "E";
-        console.log(mRover.x);
-        console.log(mRover.y);
+        console.log(mRover.direction);
+       
         break;
       case "E":
         mRover.idirection = "S";
-        console.log(mRover.x);
-        console.log(mRover.y);
+        console.log(mRover.direction);
+        
         break;
       case "S":
         mRover.idirection = "O";
-        console.log(mRover.x);
-        console.log(mRover.y);
+        console.log(mRover.direction);
+        
       break;
       case "O":
         mRover.idirection = "N";
-        console.log(mRover.x);
-        console.log(mRover.y);
+        console.log(mRover.direction);
+   
   }
 }
   
@@ -63,32 +63,28 @@ function turnRight(rover){
      console.log("moveForward was called");
      switch(mRover.idirection){
        case "N":
-         mRover.y = mRover - 1;
+         mRover.y = mRover.y - 1;
          mRover.travelLog.push(mRover.x,mRover.y);
          console.log(mRover.idirection);
-         console.log(mRover.x);
-         console.log(mRover.y);
+         
          break;
        case "O":
-         mRover.y = mRover - 1;
+         mRover.y = mRover.y - 1;
          mRover.travelLog.push(mRover.x,mRover.y);
          console.log(mRover.idirection);
-         console.log(mRover.x);
-         console.log(mRover.y);
+         
          break;
        case "E":
-         mRover.y = mRover + 1;
+         mRover.y = mRover.y + 1;
          mRover.travelLog.push(mRover.x,mRover.y);
          console.log(mRover.idirection);
-         console.log(mRover.x);
-         console.log(mRover.y);
+         
          break;
         case "S":
-         mRover.y = mRover + 1;
+         mRover.y = mRover.y + 1;
          mRover.travelLog.push(mRover.x,mRover.y);
          console.log(mRover.idirection);
-         console.log(mRover.x);
-         console.log(mRover.y);
+         
          break;
   }
 }
